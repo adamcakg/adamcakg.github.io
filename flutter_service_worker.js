@@ -4,15 +4,15 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "d8e4ef9f0a2b9e9a19ec932e55c6d4b9",
-"index.html": "c5a7c5061b1d242f4a40dcde373dc72c",
-"/": "c5a7c5061b1d242f4a40dcde373dc72c",
-"main.dart.js": "d5499c7870b677d77eecbf7cc35ff006",
+"index.html": "796346a9baac5c58461c69607bc74d41",
+"/": "796346a9baac5c58461c69607bc74d41",
+"main.dart.js": "7f025814f6c46dde538890cd1acd59d5",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "9d14ee444d9af0521b34b1b55aaddd39",
 "assets/AssetManifest.json": "d886e2e3eaccf7a50fa682af927a954c",
-"assets/NOTICES": "2a1cfbe3a5f54558156152e651fa04eb",
+"assets/NOTICES": "a0fbe0adb28f7b7b410635d002abfc1b",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/assets/images/green-planet.png": "96584611f02ab707ac6d969b7e6f52cb",
@@ -167,7 +167,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
