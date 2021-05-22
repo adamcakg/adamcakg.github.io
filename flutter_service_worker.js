@@ -3,27 +3,20 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "d8e4ef9f0a2b9e9a19ec932e55c6d4b9",
-"index.html": "796346a9baac5c58461c69607bc74d41",
-"/": "796346a9baac5c58461c69607bc74d41",
-"main.dart.js": "7f025814f6c46dde538890cd1acd59d5",
+  "version.json": "426313f2f3133c2f20415344c4a22df3",
+"index.html": "d91db5bc17803ae479070169f92ee386",
+"/": "d91db5bc17803ae479070169f92ee386",
+"main.dart.js": "5795f53e4f59246e6ed95ec99e29d7d1",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "9d14ee444d9af0521b34b1b55aaddd39",
-"assets/AssetManifest.json": "d886e2e3eaccf7a50fa682af927a954c",
-"assets/NOTICES": "a0fbe0adb28f7b7b410635d002abfc1b",
-"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/assets/images/green-planet.png": "96584611f02ab707ac6d969b7e6f52cb",
-"assets/assets/images/spacecraft.png": "2400376396a21138baafb57a83ec58fd",
-"assets/assets/images/dark-planet.png": "d7ba312074012c0748ef63608ff41bd3",
-"assets/assets/images/bg-image.jpeg": "37edee1d381e73e809ed9b745cf64852",
-"assets/assets/images/orange-planet.png": "913bb0fcdc53e0d9d47de9f20af473c2",
-"assets/assets/images/blue-planet.png": "5fdef5a8f66272055d503cc7a9addcea",
-"assets/assets/images/yellow-planet.png": "227b0977c3af47cfea6212378223601d",
-"assets/assets/images/spaceman.png": "1c7e4685fa5c711b14d10db7caea8680",
-"assets/assets/images/spaceman_mobile.png": "b68f5d242f9e8e29b53bc47e5b819133"
+"manifest.json": "a83bbbd9d23ea4d752fbcd44cdc544fa",
+"assets/AssetManifest.json": "05ffab4783d90a48f3da5d512672a578",
+"assets/NOTICES": "000684e91472544e40b2dd32a1280072",
+"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/assets/avatar.riv": "db093db02a13a1609da5766c38333924"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -41,7 +34,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
