@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "426313f2f3133c2f20415344c4a22df3",
-"index.html": "cfd6ada35dc1853c28406e991fd24e0b",
-"/": "cfd6ada35dc1853c28406e991fd24e0b",
-"main.dart.js": "b5d2d0a8b53f0cb4d7201c3bd9d2f41c",
+"index.html": "9792c52831d856e7e82f77c69c4a8c93",
+"/": "9792c52831d856e7e82f77c69c4a8c93",
+"main.dart.js": "810a783646d5f0dd7101ac755f4a99b0",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -19,7 +19,7 @@ const RESOURCES = {
 "assets/assets/icons/instagram.svg": "5b23a837268b09d0efa9e307023c1dae",
 "assets/assets/icons/facebook.svg": "617822d4fa7dea3d575c57a323a654bd",
 "assets/assets/icons/linkedin.svg": "9e36c8fd15d6f93ed6a45f9484746e8f",
-"assets/assets/avatar.riv": "db093db02a13a1609da5766c38333924"
+"assets/assets/avatar.riv": "90bfb88376042f15df25fdd8c7c3c21c"
 };
 
 // The application shell files that are downloaded before a service worker can
