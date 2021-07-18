@@ -1,18 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1'>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
 
-	<title>Portfolio</title>
+		
 
-	<link rel='icon' type='image/png' href='/favicon.png'>
-	<link rel='stylesheet' href='/global.css'>
-	<link rel='stylesheet' href='/build/bundle.css'>
+		<link rel="modulepreload" href="/./_app/start-cee768d6.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-d50ec4e8.js">
+		<link rel="modulepreload" href="/./_app/layout.svelte-3f55b3ed.js">
+		<link rel="modulepreload" href="/./_app/pages/index.svelte-f39de316.js">
+		<link rel="stylesheet" href="/./_app/assets/start-8077b9bf.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/index.svelte-7f5510d0.css">
 
-	<script defer src='/build/bundle.js'></script>
-</head>
+		<script type="module">
+			import { start } from "/./_app/start-cee768d6.js";
+			start({
+				target: document.body,
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/layout.svelte-3f55b3ed.js"),
+						import("/./_app/pages/index.svelte-f39de316.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
 
-<body class="bg-gray-200">
-</body>
+
+<main><div id="homepage" class="relative w-screen h-screen bg-gray-200"><div class="absolute right-0 py-10 px-20 space-x-10 "><button class="text-blue-400 dark:text-white">About</button>
+    <button class="text-blue-400">Portfolio</button>
+    <button class="text-blue-400 ">Contact</button></div>
+    <div class="w-screen h-screen flex flex-row p-8 lg:p-24"><div class="flex-1 m-auto"><p class="text-3xl sm:text-4xl  xl:text-6xl text-left">Programming isn&#39;t about what you know, it&#39;s about what you can figure out.</p>
+            <p class="text-1xl text-right">- Chris Pine</p>
+            <div class=" pt-4 flex justify-end "><button class="text-blue-400 ">Contact me</button>
+                <div class="w-4"></div>
+                <button class="text-blue-400 ">Know more</button></div></div>
+
+        <div class="flex-1 my-auto "><img loading="lazy" class="md:w-4/5 lg:w-9/12 pb-24 mr-0 ml-auto" src="assets/avatar.svg" alt="Icon of me">
+</div></div>
+
+    <div class="absolute bottom-0 w-screen h-32 sm:h-40 bg-white flex"><a class="flex-1 text-center m-8 my-auto sm:p-4 max-w-4" href="https://www.facebook.com/gabriel.nikto/"><div class="h-9 w-9 sm:h-12 sm:w-12 mx-auto"><img src="assets/icons/facebook.svg " alt="Facebook logo"></div>
+        <p class="pt-2 text-sm sm:text-base">Facebook</p></a>
+    <a class=" flex-1 text-center m-8 my-auto sm:p-4 max-w-4" href="https://www.instagram.com/gabrieladamcak/"><div class="h-9 w-9 sm:h-12 sm:w-12 mx-auto"><img src="assets/icons/instagram.svg" alt="Instagram logo"></div>
+        <p class="pt-2 text-sm sm:text-base">Instagram</p></a>
+    <a class=" flex-1 text-center m-8 my-auto sm:p-4 max-w-4" href="https://www.linkedin.com/in/gabriel-adam%C4%8D%C3%A1k-354780192/"><div class="h-9 w-9 sm:h-12 sm:w-12 mx-auto"><img src="assets/icons/linkedin.svg" alt="LinkedIn logo"></div>
+        <p class="pt-2 text-sm sm:text-base">LinkedIn</p></a>
+    <a class=" flex-1 text-center m-8 my-auto sm:p-4 max-w-4" href="https://github.com/adamcakg"><div class="h-9 w-9 sm:h-12 sm:w-12 mx-auto"><img src="assets/icons/github.svg" alt="Github logo"></div>
+        <p class="pt-2 text-sm sm:text-base">Github</p></a></div></div>
+    <div id="portfolio" class="w-screen h-screen svelte-1vw20as"></div>
+    <div id="about" class="relative w-screen min-h-screen sm:h-screen bg-gray-200 "><div class="w-full h-full p-8 pb-16 sm:p-10 sm:pt-16 sm:grid sm:grid-rows-2 sm:grid-cols-2 md:p-16 lg:p-32 lg:pb-56 lg:grid lg:grid-rows-3 lg:grid-cols-2 lg:gap-14"><div class="sm:col-start-1 sm:col-span-2 lg:row-start-1 lg:col-start-1 lg:col-span-1 lg:row-span-2 mb-8"><h1 class="text-center sm:text-4xl lg:text-5xl ">About</h1>
+    <div class="w-2/5 bg-gray-400 h-0.5 m-auto mt-4"></div>
+
+    <div class="pt-6"><h3 class="text-center">I am student at the Technical University in Košice, Department of Informatics. I like to make creative things. For example with Arduino and Raspberry Pi like &#39;color music&#39; or configuration tools as well as mobile apps, web apps, native gui or cli apps. Currently i&#39;m learning a &#39;Svelte&#39; tool for building fast web applications and a Flutter framework for building native gui applications. As a programing language my favorite is a &#39;Dart&#39; language because it is flexible, statically typed, general purposed and open-source.</h3></div></div>
+        <div class="sm:col-start-1 sm:row-start-2 lg:row-start-1 lg:col-start-2 mb-8"><h1 class="text-center sm:text-4xl lg:text-5xl ">Contact</h1>
+    <div class="w-2/5 bg-gray-400 h-0.5 m-auto mt-4"></div>
+
+    <div class="pt-6"><div class="w-3/4 mx-auto"><div class="flex justify-center"><a class="w-56" href="mailto:adamcakg@gmail.com">adamcakg@gmail.com</a>
+                        <img class="h-5" src="assets/icons/email.svg" alt="Link Logo"></div>
+                    <div class="w-2/5 bg-gray-400 h-px m-auto mt-2 mb-2"></div><div class="flex justify-center"><a class="w-56" href="adamcakg.github.io">adamcakg.github.io</a>
+                        <img class="h-5" src="assets/icons/web.svg" alt="Link Logo"></div>
+                    <div class="w-2/5 bg-gray-400 h-px m-auto mt-2 mb-2"></div><div class="flex justify-center"><a class="w-56" href="github.com/adamcakg">github.com/adamcakg</a>
+                        <img class="h-5" src="assets/icons/github.svg" alt="Link Logo"></div>
+                    </div></div></div>
+        <div class="sm:col-start-2 sm:row-start-2 lg:row-start-3 lg:col-start-2 mb-8"><h1 class="text-center sm:text-4xl lg:text-5xl ">Interests</h1>
+    <div class="w-2/5 bg-gray-400 h-0.5 m-auto mt-4"></div>
+
+    <div class="pt-6"><div class="w-11/12 grid gap-2 m-auto sm:grid-cols-2 md:w-full md:grid-cols-3 lg:w-11/12"><div class="bg-white rounded-xl border-gray-400 border-2"><h1 class="text-center">Dart</h1></div><div class="bg-white rounded-xl border-gray-400 border-2"><h1 class="text-center">Flutter</h1></div><div class="bg-white rounded-xl border-gray-400 border-2"><h1 class="text-center">Raspberry Pi</h1></div><div class="bg-white rounded-xl border-gray-400 border-2"><h1 class="text-center">Arduino</h1></div><div class="bg-white rounded-xl border-gray-400 border-2"><h1 class="text-center">Linux</h1></div><div class="bg-white rounded-xl border-gray-400 border-2"><h1 class="text-center">Python</h1></div><div class="bg-white rounded-xl border-gray-400 border-2"><h1 class="text-center">Svelte</h1></div></div></div></div></div>
+
+    <div class="absolute bottom-0 h-12 w-full bg-white flex"><p class="text-center m-auto">Made with ❤️ and <a class="font-medium italic" href="https://svelte.dev/">Svelte</a> by Gabik 🙂</p></div></div>
+
+</main>
+
+
+
+	
+</div>
+	</body>
 </html>
