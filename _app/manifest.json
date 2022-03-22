@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-6c52bc28.js",
+    "file": "start-926d6b89.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -18,15 +18,16 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-dc47a2d8.js",
+    "file": "pages/__layout.svelte-8d970136.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-77dfdb62.js"
+      "_vendor-77dfdb62.js",
+      "_colorDivider-6d4ee9c3.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-8e3c7537.css"
+      "assets/pages/__layout.svelte-7117581b.css"
     ]
   },
   "src/routes/__error.svelte": {
@@ -39,73 +40,71 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-6ab6f8cd.js",
+    "file": "pages/index.svelte-5d24b3b2.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-77dfdb62.js",
-      "_Logo-f1e1ba3c.js"
+      "_vendor-77dfdb62.js"
     ],
     "css": [
       "assets/pages/index.svelte-ec5f57b0.css"
     ]
   },
   "src/routes/diagnostics.svelte": {
-    "file": "pages/diagnostics.svelte-fefa214e.js",
+    "file": "pages/diagnostics.svelte-c2076776.js",
     "src": "src/routes/diagnostics.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-77dfdb62.js",
-      "_Logo-f1e1ba3c.js"
+      "_colorDivider-6d4ee9c3.js"
     ]
   },
   "src/routes/mechanical.svelte": {
-    "file": "pages/mechanical.svelte-c515a609.js",
+    "file": "pages/mechanical.svelte-3984f493.js",
     "src": "src/routes/mechanical.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-77dfdb62.js",
-      "_Logo-f1e1ba3c.js"
+      "_colorDivider-6d4ee9c3.js"
     ]
   },
   "src/routes/varnishing.svelte": {
-    "file": "pages/varnishing.svelte-ac366313.js",
+    "file": "pages/varnishing.svelte-2d157ee5.js",
     "src": "src/routes/varnishing.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-77dfdb62.js",
-      "_Logo-f1e1ba3c.js"
+      "_colorDivider-6d4ee9c3.js"
     ]
   },
   "src/routes/contact.svelte": {
-    "file": "pages/contact.svelte-230e70ac.js",
+    "file": "pages/contact.svelte-b09645ed.js",
     "src": "src/routes/contact.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-77dfdb62.js",
-      "_Logo-f1e1ba3c.js"
+      "_vendor-77dfdb62.js"
     ]
   },
   "src/routes/repairs.svelte": {
-    "file": "pages/repairs.svelte-762c0231.js",
+    "file": "pages/repairs.svelte-307f1045.js",
     "src": "src/routes/repairs.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-77dfdb62.js",
-      "_Logo-f1e1ba3c.js"
+      "_colorDivider-6d4ee9c3.js"
     ]
   },
   "_vendor-77dfdb62.js": {
     "file": "chunks/vendor-77dfdb62.js"
   },
-  "_Logo-f1e1ba3c.js": {
-    "file": "chunks/Logo-f1e1ba3c.js",
+  "_colorDivider-6d4ee9c3.js": {
+    "file": "chunks/colorDivider-6d4ee9c3.js",
     "imports": [
       "_vendor-77dfdb62.js"
     ]
